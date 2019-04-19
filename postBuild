@@ -5,7 +5,7 @@ jupyter serverextension enable --sys-prefix nbserverproxy
 
 # install the flask server extension so that
 # flask launches at startup
-mv bokehserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
+mv flaskserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 
 # enable bokeh extension
 jupyter serverextension enable --sys-prefix flaskserverextension
